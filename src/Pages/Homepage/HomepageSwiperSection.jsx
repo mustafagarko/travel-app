@@ -32,12 +32,83 @@ export default function HomepageFormSection() {
     >
       <SwiperSlide>
         <img src={slide1Bg} className=" object-cover w-full h-full" />
+        <div class="pr-[10vw] md:pr-0 md:w-fit w-full flex md:justify-normal justify-center">
+          <h1 class="text-white w-fit flex gap-2 md:text-xl text-2xl">
+            учимся
+            <span class="w-fit text-[#3577F6]"> Онлайн</span>
+          </h1>
+        </div>
+        <div class="absolute md:top-1/2 top-[60vh] left-1/2 w-full md:ml-[10vw] -translate-x-[46.5%] -translate-y-1/2 flex flex-col md:gap-8 gap-3">
+          <div class="flex flex-col gap-5">
+            <p class="underline w-fit underline-offset-8 md:font-bold text-white md:text-base text-xl font-semibold">
+              Mufasa Travel - USA
+            </p>
+            <h1 class="text-white w-fit md:text-9xl text-4xl font-medium">
+              Travel to
+              <br />
+              New York City
+            </h1>
+          </div>
+          <div class="flex md:flex-row flex-col gap-8 justify-between">
+            <p class="text-white bg-[#050402] bg-opacity-50 font-thin mr-[15vw] text-xl leading-7">
+              Book your NYC adventure today <br />
+              and explore the heart of the Big Apple
+            </p>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide2Bg} className=" object-cover w-full h-full" />
+        <div class="pr-[10vw] md:pr-0 md:w-fit w-full flex md:justify-normal justify-center">
+          <h1 class="text-white w-fit flex gap-2 md:text-xl text-2xl">
+            учимся
+            <span class="w-fit text-[#3577F6]"> Онлайн</span>
+          </h1>
+        </div>
+        <div class="absolute md:top-1/2 top-[60vh] left-1/2 w-full md:ml-[10vw] -translate-x-[46.5%] -translate-y-1/2 flex flex-col md:gap-8 gap-3">
+          <div class="flex flex-col gap-5">
+            <p class="w-fit underline underline-offset-8 md:font-bold text-white md:text-base text-xl font-semibold">
+              Mufasa Travel - Turkey
+            </p>
+            <h1 class="text-white md:text-9xl text-4xl font-medium">
+              Travel to
+              <br />
+              Istanbul
+            </h1>
+          </div>
+          <div class="flex md:flex-row flex-col gap-8 justify-between">
+            <p class="text-white bg-[#133369] bg-opacity-50 font-thin mr-[15vw] text-xl leading-7">
+              Book your tour to visit <br />
+              the ancient city of Istanbul - the heart of Turkey
+            </p>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
         <img src={slide3Bg} className=" object-cover w-full h-full" />
+        <div class="pr-[10vw] md:pr-0 md:w-fit w-full flex md:justify-normal justify-center">
+          <h1 class="text-white w-fit flex gap-2 md:text-xl text-2xl">
+            учимся
+            <span class="w-fit text-[#3577F6]"> Онлайн</span>
+          </h1>
+        </div>
+        <div class="absolute md:top-1/2 top-[60vh] left-1/2 w-full md:ml-[10vw] -translate-x-[46.5%] -translate-y-1/2 flex flex-col md:gap-8 gap-3">
+          <div class="flex flex-col gap-5">
+            <p class="underline underline-offset-8 md:font-bold text-white md:text-base text-xl font-semibold">
+              Mufasa Travel - UK
+            </p>
+            <h1 class="text-white md:text-9xl text-4xl font-medium">
+              Travel to <br />
+              London
+            </h1>
+          </div>
+          <div class="flex md:flex-row flex-col gap-8 justify-between">
+            <p class="text-white bg-[#101519] bg-opacity-50 font-thin mr-[15vw] text-xl leading-7">
+              Book your London tour <br />
+              and experience the charm of the UK capital
+            </p>
+          </div>
+        </div>
       </SwiperSlide>
       <div className="swiper-button-nextCustom"></div>
       <div className="swiper-button-prevCustom"></div>

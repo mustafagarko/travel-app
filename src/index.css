@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-button-prevCustom {
+  position: absolute;
+  top: 50%;
+  left: 2vw;
+  background-image: url("./Pictures/arrowNext.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-size: cover;
+  z-index: 40;
+  opacity: 50%;
+  transform: scaleX(-1) translateY(-50%);
+  cursor: pointer;
+}
+.swiper-button-prevCustom:hover {
+  position: absolute;
+  top: 50%;
+  left: 2vw;
+  background-image: url("./Pictures/arrowNext_hover.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 2.6vw;
+  height: 2.6vw;
+  z-index: 40;
+  opacity: 100%;
+  transform: scaleX(-1) translateY(-50%);
+  cursor: pointer;
+}
+
+.swiper-button-nextCustom {
+  position: absolute;
+  top: 50%;
+  right: 2vw;
+  background-image: url("./Pictures/arrowNext.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  width: 2.6vw;
+  height: 2.6vw;
+  z-index: 40;
+  opacity: 50%;
+  transform: translateY(-50%);
+}
+.swiper-button-nextCustom:hover {
+  position: absolute;
+  top: 50%;
+  right: 2vw;
+  background-image: url("./Pictures/arrowNext_hover.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-size: cover;
+  width: 2.6vw;
+  height: 2.6vw;
+  z-index: 40;
+  opacity: 100%;
+  transform: translateY(-50%);
+}
+
+.swiper-pagination {
+  --swiper-pagination-color: white;
+}

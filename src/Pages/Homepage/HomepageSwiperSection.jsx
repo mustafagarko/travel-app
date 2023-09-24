@@ -40,7 +40,7 @@ export default function HomepageFormSection() {
         </div>
         <div class="absolute md:top-1/2 top-[60vh] left-1/2 w-full md:ml-[10vw] -translate-x-[46.5%] -translate-y-1/2 flex flex-col md:gap-8 gap-3">
           <div class="flex flex-col gap-5">
-            <p class="underline w-fit underline-offset-8 md:font-bold text-white md:text-base text-xl font-semibold">
+            <p class="underline w-fit underline-offset-8 md:font-bold text-white md:text-base text-xl font-semibold rounded-r-none">
               Mufasa Travel - USA
             </p>
             <h1 class="text-white w-fit md:text-9xl text-4xl font-medium">

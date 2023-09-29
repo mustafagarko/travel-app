@@ -1,4 +1,3 @@
-import logo from "../../Pictures/logo.png";
 import valuePic from "../../Pictures/value.png";
 import luxuryPic from "../../Pictures/luxury.png";
 import guidancePic from "../../Pictures/guidance.png";
@@ -14,7 +13,6 @@ export default function HomepageInfoSection() {
               Value and <br />
               <span class="text-[#3577F6] w-full text-2xl">Ease</span>
             </p>
-
             <p class="w-full text-[#625D5D] md:pr-[4vw] font-thin">
               We secure exclusive deals, making your travel affordable and
               hassle-free. Leave the details to us; your dream vacation awaits.
@@ -38,7 +36,6 @@ export default function HomepageInfoSection() {
           <div class="w-px md:visible invisible bg-[#F2F2F2] h-[44.3vh] -translate-y-[7.3vh]"></div>
         </div>
         <div class="h-px w-full bg-[#F2F2F2] md:hidden"></div>
-
         <div class="flex flex-col gap-[2.5vh] md:w-[26vw] w-[91.5vw] h-[30vh]">
           <img src={luxuryPic} class="md:w-[4vw] w-[13.3vw] h-[8vh]" />
           <p class="w-full text-2xl">

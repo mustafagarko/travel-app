@@ -10,7 +10,7 @@ export default function Navbar() {
           className="object-cover w-[50px] h-[50px] cursor-pointer"
         ></img>
       </Link>
-      <ul className="text-white flex w-[30%] justify-between ">
+      <ul className="text-white flex gap-10 ">
         <li className="hover:opacity-50">
           <Link to="/destinations">Destinations</Link>
         </li>

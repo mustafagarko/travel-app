@@ -1,6 +1,24 @@
 import logoPic from "../../Pictures/logo.png";
+import { useState } from "react";
 
 const LogIn = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  function handleEmail(e) {
+    setEmail(e.target.value);
+  }
+  function handlePassword(e) {
+    setPassword(e.target.value);
+  }
+
+  function btnHandler() {
+    if (email && password) {
+      const userData = { email: email, password: password };
+      console.log(userData);
+      setEmail("");
+      setPassword("");
+    }
+  }
   return (
     <section className="w-screen h-screen flex items-center bg-[#3477F6] justify-center">
       <div className="w-1/2 h-1/2 bg-white rounded-xl flex gap-10 p-5">
@@ -9,6 +27,10 @@ const LogIn = () => {
           <div className="flex flex-col gap-4">
             <p>Email:</p>
             <input
+              onChange={(e) => handleEmail(e)}
+              value={email}
+              name="email"
+              type="email"
               placeholder="Enter your email"
               className="w-full bg-gray-300 h-[30px] rounded-md p-2"
             ></input>
@@ -16,11 +38,18 @@ const LogIn = () => {
           <div className="flex flex-col gap-4">
             <p>Password:</p>
             <input
+              value={password}
+              onChange={(e) => handlePassword(e)}
+              name="password"
+              type="password"
               placeholder="Enter your password"
               className="w-full bg-gray-300 h-[30px] rounded-md p-2"
             ></input>
           </div>
-          <button className="w-[100px] rounded-md text-white bg-[#3477F6] hover:bg-[#0E3771] h-[35px]">
+          <button
+            onClick={btnHandler}
+            className="w-[100px] rounded-md text-white bg-[#3477F6] hover:bg-[#0E3771] h-[35px]"
+          >
             Log In
           </button>
           <div className="flex justify-between">

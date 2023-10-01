@@ -20,6 +20,9 @@ export default function Navbar() {
         <li className="hover:opacity-50">
           <Link to="/contact">Contact Us</Link>
         </li>
+        <li className="hover:opacity-50">
+          <Link to="/login">Log in</Link>
+        </li>
       </ul>
     </nav>
   );

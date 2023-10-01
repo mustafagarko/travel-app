@@ -8,7 +8,7 @@ export default function HomepageInfoSection() {
       <div className="flex md:justify-normal md:flex-row flex-col justify-between gap-[2.6vw] md:w-[83vw] md:h-[44vh] md:py-[7.3vh]">
         <div className="flex justify-between md:w-[26vw] w-[91.5vw] h-[30vh]">
           <div className="flex flex-col gap-[2.5vh] md:w-[26vw] w-[91.5vw]">
-            <img src={valuePic} className="md:w-[4vw] w-[13.3vw] h-[8vh]" />
+            <img src={valuePic} className="w-[70px] object-cover h-[70px]" />
             <p className="w-full text-2xl font-medium">
               Value and <br />
               <span className="text-[#3577F6] w-full text-2xl">Ease</span>
@@ -23,7 +23,7 @@ export default function HomepageInfoSection() {
         <div className="h-px w-full bg-[#F2F2F2] md:hidden"></div>
         <div className="flex justify-between md:w-[26vw] w-[91.5vw] h-[30vh]">
           <div className="flex flex-col gap-[2.5vh] md:w-[26vw] w-[91.5vw]">
-            <img src={guidancePic} className="md:w-[4vw] w-[13.3vw] h-[8vh]" />
+            <img src={guidancePic} className="w-[70px] object-cover h-[70px]" />
             <p className="w-full text-2xl">
               Expert <br />
               <span className="text-[#3577F6] w-full text-2xl">Guidance</span>
@@ -37,7 +37,7 @@ export default function HomepageInfoSection() {
         </div>
         <div className="h-px w-full bg-[#F2F2F2] md:hidden"></div>
         <div className="flex flex-col gap-[2.5vh] md:w-[26vw] w-[91.5vw] h-[30vh]">
-          <img src={luxuryPic} className="md:w-[4vw] w-[13.3vw] h-[8vh]" />
+          <img src={luxuryPic} className="w-[70px] object-cover h-[70px]" />
           <p className="w-full text-2xl">
             Affordable <br />
             <span className="text-[#3577F6] w-full text-2xl">Luxury</span>
